@@ -1,0 +1,92 @@
+/*
+ * Obsidian Folder Color Coding
+ * 
+ * This snippet provides custom colors for folders in the file explorer based on their prefix.
+ * Each folder prefix (00, 10, 20, etc.) gets a unique color scheme including the folder title,
+ * indentation guides, and collapse icons.
+ * 
+ * Usage:
+ * 1. Change the data-path prefix to match your folder structure
+ * 2. Place this file in .obsidian/snippets/
+ * 3. Enable it in Settings > Appearance > CSS snippets
+ */
+
+/* =============================================================================
+   FOLDER COLOR SCHEMES BY PREFIX
+   ============================================================================= */
+
+/* Prefix "00" - Light blue-gray */
+.nav-folder:has(.nav-folder-title[data-path^="00"]) {
+    --nav-indentation-guide-color: #a4b9c5;
+    --nav-collapse-icon-color: #a4b9c5;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="00"]) .nav-folder-title {
+    color: #a4b9c5;
+}
+
+/* Prefix "10" - Lavender blue */
+.nav-folder:has(.nav-folder-title[data-path^="10"]) {
+    --nav-indentation-guide-color: #9ea7d6;
+    --nav-collapse-icon-color: #9ea7d6;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="10"]) .nav-folder-title {
+    color: #9ea7d6;
+}
+
+/* Prefix "20" - Teal */
+.nav-folder:has(.nav-folder-title[data-path^="20"]) {
+    --nav-indentation-guide-color: #75b4b4;
+    --nav-collapse-icon-color: #75b4b4;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="20"]) .nav-folder-title {
+    color: #75b4b4;
+}
+
+/* Prefix "30" - Sage green */
+.nav-folder:has(.nav-folder-title[data-path^="30"]) {
+    --nav-indentation-guide-color: #70a07f;
+    --nav-collapse-icon-color: #70a07f;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="30"]) .nav-folder-title {
+    color: #70a07f;
+}
+
+/* Prefix "40" - Light green with transparency */
+.nav-folder:has(.nav-folder-title[data-path^="40"]) {
+    --nav-indentation-guide-color: #b6ca95e1;
+    --nav-collapse-icon-color: #b6ca95e1;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="40"]) .nav-folder-title {
+    color: #b6ca95e1;
+}
+
+/* Prefix "50" - Light purple with transparency */
+.nav-folder:has(.nav-folder-title[data-path^="50"]) {
+    --nav-indentation-guide-color: #d0b2ddd0;
+    --nav-collapse-icon-color: #d0b2ddd0;
+}
+
+.nav-folder:has(.nav-folder-title[data-path^="50"]) .nav-folder-title {
+    color: #d0b2ddd0;
+}
+
+/* =============================================================================
+   HOVER EFFECTS
+   ============================================================================= */
+
+/* Hover effect for folder and file titles */
+.nav-folder-title:hover,
+.nav-file-title:hover {
+    background-color: rgba(164, 185, 197, 0.2) !important;
+}
+
+/* Nested hover effect for folder titles within folders */
+.nav-folder-title:hover .nav-folder-title,
+.nav-file-title:hover .nav-file-title {
+    background-color: rgba(164, 185, 197, 0.2) !important;
+}
