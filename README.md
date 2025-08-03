@@ -1,8 +1,8 @@
 # my-obsidian
-My custom CSS snippets designed to enhance the Everforest dark theme in Obsidian. These snippets provide visual improvements for better organization and aesthetics within notes.
+My custom CSS snippets designed to improve the Everforest dark theme in Obsidian. These snippets provide visual improvements for better organization and aesthetics within notes.
 
 <p align="center">
-  <img width="506" height="580" alt="{1B3E873E-71D0-40EF-AD11-B86434366949}" src="https://github.com/user-attachments/assets/9b690b10-51a8-4bf5-8c1a-c6ab8829bd6c" />
+  <img width="454" height="487" alt="{15655A82-1453-408C-8B24-10AA091A6EEB}" src="https://github.com/user-attachments/assets/67a1ff8e-b6a3-40e1-8234-08854420626a" />
 </p>
 
 ## Overview
